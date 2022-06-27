@@ -1,0 +1,170 @@
+body{
+  margin:0;
+}
+#one{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 90%;
+}
+#eno{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 90%;
+  right:0%;
+}
+#eno1{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 92.5%;
+  right:0%;
+}
+#eno2{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 95%;
+  right:0%;
+}
+#one1{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 92.5%;
+}
+#one2{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 95%;
+}
+#two{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 90%;
+  left:5%;
+}
+#owt{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 90%;
+  right:5%;
+}
+#owt1{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 92.5%;
+  right:5%;
+}
+#owt2{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 95%;
+  right:5%;
+}
+#two1{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 92.5%;
+  left:5%;
+}
+#two2{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 95%;
+  left:5%;
+}
+#three{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 90%;
+  left:10%;
+}
+#eerht{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 90%;
+  right:10%;
+}
+#eerht1{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 92.5%;
+  right:10%;
+}
+#eerht2{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 95%;
+  right:10%;
+}
+#three1{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 92.5%;
+  left:10%;
+}
+#three2{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 95%;
+  left:10%;
+}
+#shuffle{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 1%;
+}
+#reset{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 1%;
+  left:10%;
+}
+.cghost{
+  text-align: center;
+  background-color: white;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 45px;
+  z-index: 99;
+  position: absolute;
+  display: block;
+  top:10%;
+  left:50%;
+transform:translateX(-50%);
+}
+#start{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 75%;
+  left:45%;
+  transform:translateX(-50%);
+}
+#finish{
+  position: absolute;
+  display: block;
+  z-index: 99;
+  top: 75%;
+  left:55%;
+  transform:translateX(-50%);
+}

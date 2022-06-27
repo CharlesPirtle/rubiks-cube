@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rubiks Cube</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <script src="lib/Three.js"></script>
+  <script src="lib/three.min.js"></script>
+  <script src="lib/SceneUtils.js"></script>
+  <script src="lib/OrbitControls.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <script src="myScript.js"></script>
+  <button id="shuffle" type="button" onclick="rando()">Shuffle</button>
+  <button id="reset" type="button" onclick="reset()">Reset</button>
+
+  <button id="one" type="button" onclick="turny(cube_array,-1.1,2)">y:1</button>
+  <button id="two"type="button" onclick="turny(cube_array,0,2)">y:2</button>
+  <button id="three"type="button" onclick="turny(cube_array,1.1,2)">y:3</button>
+
+  <button id="one1"type="button" onclick="turnx(cube_array,-1.1,2)">x:1</button>
+  <button id="two1"type="button" onclick="turnx(cube_array,0,2)">x:2</button>
+  <button id="three1"type="button" onclick="turnx(cube_array,1.1,2)">x:3</button>
+
+  <button id="one2"type="button" onclick="turnz(cube_array,-1.1,2)">z:1</button>
+  <button id="two2"type="button" onclick="turnz(cube_array,0,2)">z:2</button>
+  <button id="three2"type="button" onclick="turnz(cube_array,1.1,2)">z:3</button>
+
+
+
+  <button id="eno"type="button" onclick="turny(cube_array,1.1,-2)">y:3`</button>
+  <button id="owt"type="button" onclick="turny(cube_array,0,-2)">y:2`</button>
+  <button id="eerht"type="button" onclick="turny(cube_array,-1.1,-2)">y:1`</button>
+
+  <button id="eno1"type="button" onclick="turnx(cube_array,1.1,-2)">x:3`</button>
+  <button id="owt1"type="button" onclick="turnx(cube_array,0,-2)">x:2`</button>
+  <button id="eerht1"type="button" onclick="turnx(cube_array,-1.1,-2)">x:1`</button>
+
+  <button id="eno2"type="button" onclick="turnz(cube_array,1.1,-2)">z:3`</button>
+  <button id="owt2"type="button" onclick="turnz(cube_array,0,-2)">z:2`</button>
+  <button id="eerht2"type="button" onclick="turnz(cube_array,-1.1,-2)">z:1`</button>
+
+  <div class="cghost">
+  <span class='clock-font' id="minutes">00</span>
+  <span class='clock-font'>:</span>
+  <span class='clock-font' id="seconds">00</span>
+  </div>
+
+<button id="start" type="button" onclick="counter()">Start<button>
+<button id="finish" type="button" onclick="stop()">Finish<button>
+</body>
+</html>
